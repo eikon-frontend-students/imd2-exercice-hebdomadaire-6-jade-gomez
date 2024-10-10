@@ -12,3 +12,35 @@ img,
 video {
   display: block;
 }
+.body {
+  background-color: #eee;
+}
+.main {
+  display: flex;
+  width: 200px;
+  height: 100vh;
+  padding: 50px 20px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  box-shadow: 2px 0px 6px 0px rgba(0, 0, 0, 0.25);
+}
+.navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.link {
+  text-align: center;
+}
+p {
+  color: #754ff6;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 22px;
+  margin-top: 10px;
+}
+.orange p {
+  color: #e5807c;
+}
